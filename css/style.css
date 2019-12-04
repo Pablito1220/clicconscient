@@ -1,0 +1,34 @@
+@keyframes example {
+  from {
+    width: 200%;
+  }
+
+  to {
+    width: 70%;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
+
+img {
+  display: block;
+  position: absolute;
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, .2);
+  width: 200%;
+  opacity: 0%;
+}
+
+.image {
+  width: 70%;
+  animation-name: example;
+  transition-timing-function: ease-out;
+
+  animation-duration: 0.5s;
+  opacity: 100%;
+
+}
