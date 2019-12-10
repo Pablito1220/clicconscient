@@ -1,10 +1,10 @@
 document.addEventListener("click", onClick);
 let container = document.getElementById("container");
 let counter = 0;
-let widthImg = 581 * 0.7;
-let heightImg = 581 * 0.7;
+let widthImg = 609 * 0.7;
+let heightImg = 609 * 0.7;
 let arrayImgs = document.getElementsByTagName("img");
-let nbImages = 7;
+let nbImages = 18;
 
 
 onClick();
