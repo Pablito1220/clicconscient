@@ -1,8 +1,8 @@
 document.addEventListener("click", onClick);
 let container = document.getElementById("container");
 let counter = 0;
-let widthImg = 609 * 0.7;
-let heightImg = 609 * 0.7;
+let widthImg = 609 * 0.6;
+let heightImg = 609 * 0.6;
 let arrayImgs = document.getElementsByTagName("img");
 let nbImages = 18;
 
