@@ -9,7 +9,7 @@ let imgs = [];
 function setup() {
   for (let i = 1; i < 19; i++) {
     let image = new Image();
-    image.src = "img/img" + i + ".jpg";
+    image.src = "./img/img" + i + ".jpg";
     imgs.push(image);
   }
   document.addEventListener("click", onClick);
